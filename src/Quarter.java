@@ -48,6 +48,9 @@ public class Quarter {
 	 else
 		 return 2.375;
  }
+ public double getRating(){
+	 return((getA()+getB()+getC()+getD())/6)*100;
+ }
  }
 
 
