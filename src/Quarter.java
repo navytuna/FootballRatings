@@ -2,6 +2,7 @@
 
 public class Quarter {
  private double completions, attempts, yards, touchdowns, interceptions;
+ 
  public Quarter(double completions1, double attempts1, double yards1, double touchdowns1, double interceptions1){
  completions=completions1;
  attempts=attempts1;
@@ -9,6 +10,7 @@ public class Quarter {
  touchdowns=touchdowns1;
  interceptions=interceptions1;
  }
+ 
  public double getA(){
 	 double A = (completions/attempts-0.3)*5;
 	 if (A < 2.375){
@@ -68,6 +70,7 @@ public class Quarter {
 		 return D;
 	 }
  }
+ 
  public double getQrating (double A, double B, double C, double D) {
 	double rating = ((A+B+C+D)/6)*100;
 	return rating;
