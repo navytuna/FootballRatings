@@ -32,7 +32,7 @@ public class Receiver implements driver {
 		A = 0.87*ypc+0.13*tdpc;
 		return A;
 	}
-	public double runrating (double A, double ROF){
+	public double receiverating (double A, double ROF){
 		double runrating = ((A+rof)/9)*100;
 		return runrating;
 	}

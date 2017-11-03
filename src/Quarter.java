@@ -71,7 +71,7 @@ public class Quarter implements driver {
 	 }
  }
  
- public double getQrating (double A, double B, double C, double D) {
+ public double qrating (double A, double B, double C, double D) {
 	double rating = ((A+B+C+D)/6)*100;
 	return rating;
  }
