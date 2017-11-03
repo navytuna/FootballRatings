@@ -3,7 +3,8 @@
  * WARNING:
  * The equations here were manually put together
  * Because of this, they are almost certainly inaccurate.
- * Blame the lack of sources for the developer for this.
+ * Blame the lack of sources that the developer was able to grab
+ * from the NFL for this.
  * 
  */
 
