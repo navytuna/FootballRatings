@@ -68,16 +68,9 @@ public class Quarter {
 		 return D;
 	 }
  }
-<<<<<<< HEAD
- 
  public double getQrating (double A, double B, double C, double D) {
 	double rating = ((A+B+C+D)/6)*100;
 	return rating;
-=======
- public double getRating(){
-	 return((getA()+getB()+getC()+getD())/6)*100;
- }
->>>>>>> 81a196cf7cb6d359e42b6c995a5737d9316d9597
  }
 }
 
