@@ -8,7 +8,7 @@
  * 
  */
 
-public class Receiver {
+public class Receiver implements driver {
 	double ypc, tdpc, rof, A; //Almost everything is shortened to an acronym
 //ypc is yards per catch
 //tdpc is receiving touch downs per catch

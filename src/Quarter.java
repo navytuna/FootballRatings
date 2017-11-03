@@ -1,6 +1,6 @@
 //Things in this class are not named as in the other classes
 
-public class Quarter {
+public class Quarter implements driver {
  private double completions, attempts, yards, touchdowns, interceptions;
  
  public Quarter(double completions1, double attempts1, double yards1, double touchdowns1, double interceptions1){

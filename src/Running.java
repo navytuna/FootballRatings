@@ -1,5 +1,5 @@
 
-public class Running {
+public class Running implements driver {
 	double ypa, ypc, tdpa, tdpc, rof, A, B; //Almost everything is shortened to an acronym
 //ypa is yards per attempt
 //ypc is yards per catch
